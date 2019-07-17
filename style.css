@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+h1, h2{
+    color: rgba(64, 163, 163, 0.829);
+}
+
+h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+}
+
+.main-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author-text{
+    font-size: 22px
+}
+
+
+/* box-model
+
+    Margin   ==> outer space
+    Padding  ==> inner space between box and  content
+    Content  ==> inside the box eg text, image,links
+    Border   ==> border of the box
+
+*/
+
+/* Inline and block elements
+        block ===>  get the full browser width; h and p
+        inline ==> get the element size; img, links, strong, em; we can set thir height or width
+
+*/
